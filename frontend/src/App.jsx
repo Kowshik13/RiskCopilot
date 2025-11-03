@@ -96,7 +96,7 @@ function App() {
             <div className="flex space-x-4 text-sm text-gray-500">
               <span>v1.0.0</span>
               <span>•</span>
-              <a href="https://github.com/Kowshik13" className="hover:text-gray-700">
+              <a href="https://github.com/Kowshik13/RiskCopilot" className="hover:text-gray-700">
                 GitHub
               </a>
             </div>
