@@ -1,0 +1,736 @@
+[
+  {
+    "content": "# Artificial Intelligence Governance Policy\nVersion: 1.3\nLast Updated: December 2023\nClassification: Confidential\n\n## Executive Summary\n\nThis policy establishes governance standards for the development, deployment, and monitoring of Artificial Intelligence (AI) and Machine Learning (ML) systems at Société Générale, ensuring ethical, transparent, and compliant AI practices.\n\n## 1. Introduction and Purpose",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_0",
+      "chunk_index": 0,
+      "total_chunks": 27,
+      "chunk_size": 407
+    }
+  },
+  {
+    "content": "## 1. Introduction and Purpose\n\n### 1.1 Objectives\n- Ensure responsible and ethical AI deployment\n- Maintain compliance with EU AI Act and other regulations\n- Establish clear accountability and oversight\n- Mitigate AI-specific risks\n- Foster innovation while maintaining control\n\n### 1.2 Scope\nThis policy covers:\n- Large Language Models (LLMs)\n- Machine Learning models\n- Deep Learning systems\n- Automated decision-making systems\n- Robotic Process Automation with AI\n- Generative AI applications",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_1",
+      "chunk_index": 1,
+      "total_chunks": 27,
+      "chunk_size": 496,
+      "section": "Executive Summary"
+    }
+  },
+  {
+    "content": "## 2. AI Risk Taxonomy\n\n### 2.1 Ethical Risks\n- **Bias and Fairness**: Discriminatory outcomes\n- **Transparency**: Black-box decision-making\n- **Privacy**: Unauthorized data usage\n- **Autonomy**: Over-reliance on AI decisions\n\n### 2.2 Operational Risks\n- **Performance Degradation**: Model drift over time\n- **Adversarial Attacks**: Malicious input manipulation\n- **System Failures**: Availability and reliability issues\n- **Integration Risks**: Compatibility with existing systems",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_2",
+      "chunk_index": 2,
+      "total_chunks": 27,
+      "chunk_size": 481,
+      "section": "1.2 Scope"
+    }
+  },
+  {
+    "content": "### 2.3 Compliance Risks\n- **Regulatory Violations**: Non-compliance with AI regulations\n- **Data Protection**: GDPR and data sovereignty issues\n- **Intellectual Property**: Copyright and patent concerns\n- **Liability**: Legal responsibility for AI decisions\n\n### 2.4 Reputational Risks\n- **Public Trust**: Loss of customer confidence\n- **Media Scrutiny**: Negative publicity\n- **Competitive Disadvantage**: Falling behind in AI adoption\n- **Stakeholder Concerns**: Investor and partner confidence",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_3",
+      "chunk_index": 3,
+      "total_chunks": 27,
+      "chunk_size": 497,
+      "section": "2.2 Operational Risks"
+    }
+  },
+  {
+    "content": "## 3. AI Governance Framework\n\n### 3.1 AI Ethics Committee\n**Composition:**\n- Chief Risk Officer (Chair)\n- Chief Data Officer\n- Chief Technology Officer\n- Head of Compliance\n- Head of Legal\n- Business Unit Representatives\n- External Ethics Advisor\n\n**Responsibilities:**\n- Review high-risk AI projects\n- Approve AI ethics guidelines\n- Monitor compliance with policy\n- Address ethical dilemmas\n- Review incident reports\n\n### 3.2 AI Risk Assessment Framework",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_4",
+      "chunk_index": 4,
+      "total_chunks": 27,
+      "chunk_size": 456,
+      "section": "2.4 Reputational Risks"
+    }
+  },
+  {
+    "content": "### 3.2 AI Risk Assessment Framework\n\n**Risk Categories:**\n1. **Minimal Risk**: Internal productivity tools\n2. **Limited Risk**: Customer service chatbots\n3. **High Risk**: Credit scoring, fraud detection\n4. **Unacceptable Risk**: Social scoring, mass surveillance\n\n**Assessment Criteria:**\n- Impact on fundamental rights\n- Safety implications\n- Economic impact\n- Number of affected individuals\n- Reversibility of decisions\n\n## 4. AI Development Standards",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_5",
+      "chunk_index": 5,
+      "total_chunks": 27,
+      "chunk_size": 455,
+      "section": "3.1 AI Ethics Committee"
+    }
+  },
+  {
+    "content": "## 4. AI Development Standards\n\n### 4.1 Design Principles\n- **Human-Centric**: Augment human capabilities\n- **Transparent**: Explainable decisions\n- **Fair**: Avoid discriminatory bias\n- **Robust**: Secure and reliable\n- **Privacy-Preserving**: Data minimization\n- **Accountable**: Clear responsibility\n\n### 4.2 Development Requirements\n\n**Phase 1: Conception**\n- Business case with AI justification\n- Ethical impact assessment\n- Alternative approach analysis\n- Stakeholder consultation",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_6",
+      "chunk_index": 6,
+      "total_chunks": 27,
+      "chunk_size": 486,
+      "section": "3.2 AI Risk Assessment Framework"
+    }
+  },
+  {
+    "content": "**Phase 2: Data Preparation**\n- Data quality assessment\n- Bias analysis in training data\n- Privacy impact assessment\n- Data lineage documentation\n\n**Phase 3: Model Development**\n- Algorithm selection justification\n- Fairness metrics definition\n- Explainability requirements\n- Performance benchmarks\n\n**Phase 4: Testing**\n- Accuracy testing\n- Bias testing across protected groups\n- Robustness testing\n- Explainability validation\n- Security testing",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_7",
+      "chunk_index": 7,
+      "total_chunks": 27,
+      "chunk_size": 446,
+      "section": "4.2 Development Requirements"
+    }
+  },
+  {
+    "content": "**Phase 5: Deployment**\n- Human oversight mechanisms\n- Monitoring setup\n- Fallback procedures\n- User training\n\n## 5. Explainability and Transparency\n\n### 5.1 Explainability Requirements\n**By Risk Level:**\n- **Minimal Risk**: Basic documentation\n- **Limited Risk**: Feature importance\n- **High Risk**: Detailed explanations for individual decisions\n- **Critical Systems**: Full interpretability required",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_8",
+      "chunk_index": 8,
+      "total_chunks": 27,
+      "chunk_size": 402,
+      "section": "4.2 Development Requirements"
+    }
+  },
+  {
+    "content": "### 5.2 Transparency Measures\n- Public AI use registry\n- Clear AI interaction disclosure\n- Model cards for documentation\n- Regular transparency reports\n- Stakeholder communication\n\n## 6. Bias and Fairness\n\n### 6.1 Bias Detection\n**Required Testing:**\n- Demographic parity\n- Equalized odds\n- Calibration across groups\n- Individual fairness\n- Counterfactual fairness",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_9",
+      "chunk_index": 9,
+      "total_chunks": 27,
+      "chunk_size": 364,
+      "section": "5.1 Explainability Requirements"
+    }
+  },
+  {
+    "content": "### 6.2 Bias Mitigation\n**Strategies:**\n- Pre-processing: Data augmentation, re-sampling\n- In-processing: Fairness constraints in training\n- Post-processing: Threshold optimization\n- Continuous monitoring and adjustment\n\n### 6.3 Protected Attributes\nMonitor for bias related to:\n- Race and ethnicity\n- Gender and gender identity\n- Age\n- Disability status\n- Sexual orientation\n- Religion\n- National origin\n\n## 7. Large Language Models (LLM) Governance",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_10",
+      "chunk_index": 10,
+      "total_chunks": 27,
+      "chunk_size": 450,
+      "section": "6.1 Bias Detection"
+    }
+  },
+  {
+    "content": "## 7. Large Language Models (LLM) Governance\n\n### 7.1 LLM-Specific Risks\n- **Hallucination**: Generating false information\n- **Prompt Injection**: Malicious prompt manipulation\n- **Data Leakage**: Exposing training data\n- **Toxic Output**: Harmful or offensive content\n- **Misalignment**: Deviation from intended behavior\n\n### 7.2 LLM Controls\n\n**Input Controls:**\n- Prompt validation and sanitization\n- Content filtering\n- Rate limiting\n- User authentication",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_11",
+      "chunk_index": 11,
+      "total_chunks": 27,
+      "chunk_size": 459,
+      "section": "6.3 Protected Attributes"
+    }
+  },
+  {
+    "content": "**Output Controls:**\n- Content moderation\n- Fact-checking mechanisms\n- Confidence scoring\n- Citation requirements\n- Human review for critical decisions\n\n### 7.3 LLM Deployment Standards\n- Use approved LLM providers only\n- Implement guardrails for all applications\n- Regular prompt testing and optimization\n- Monitor for drift and degradation\n- Maintain audit logs of all interactions\n\n## 8. Data Governance for AI",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_12",
+      "chunk_index": 12,
+      "total_chunks": 27,
+      "chunk_size": 413,
+      "section": "7.2 LLM Controls"
+    }
+  },
+  {
+    "content": "## 8. Data Governance for AI\n\n### 8.1 Data Quality Requirements\n- **Accuracy**: >98% for critical fields\n- **Completeness**: No missing values in key features\n- **Consistency**: Cross-validation across sources\n- **Timeliness**: Regular updates per SLA\n- **Relevance**: Periodic feature importance review",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_13",
+      "chunk_index": 13,
+      "total_chunks": 27,
+      "chunk_size": 303,
+      "section": "7.3 LLM Deployment Standards"
+    }
+  },
+  {
+    "content": "### 8.2 Data Privacy\n- Implement privacy-preserving techniques\n- Use synthetic data where appropriate\n- Apply differential privacy for sensitive data\n- Regular privacy audits\n- Data minimization principle\n\n### 8.3 Data Retention\n- Define retention periods by use case\n- Implement automated deletion\n- Maintain audit trail of data usage\n- Regular data inventory updates\n\n## 9. Third-Party AI Management",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_14",
+      "chunk_index": 14,
+      "total_chunks": 27,
+      "chunk_size": 401,
+      "section": "8.1 Data Quality Requirements"
+    }
+  },
+  {
+    "content": "## 9. Third-Party AI Management\n\n### 9.1 Vendor Assessment\n**Required Evaluations:**\n- Technical capability assessment\n- Security and privacy review\n- Ethical practices evaluation\n- Compliance verification\n- Performance benchmarking\n\n### 9.2 Contractual Requirements\n- Right to audit\n- Performance SLAs\n- Data protection clauses\n- Liability and indemnification\n- Termination procedures\n- IP ownership clarity",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_15",
+      "chunk_index": 15,
+      "total_chunks": 27,
+      "chunk_size": 408,
+      "section": "8.3 Data Retention"
+    }
+  },
+  {
+    "content": "### 9.3 Ongoing Monitoring\n- Regular performance reviews\n- Incident reporting requirements\n- Change notification procedures\n- Annual reassessment\n\n## 10. AI Security\n\n### 10.1 Security Threats\n- Model extraction attacks\n- Data poisoning\n- Adversarial examples\n- Model inversion\n- Membership inference\n\n### 10.2 Security Controls\n- Input validation\n- Model encryption\n- Access controls\n- Anomaly detection\n- Security testing\n- Incident response procedures",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_16",
+      "chunk_index": 16,
+      "total_chunks": 27,
+      "chunk_size": 454,
+      "section": "9.2 Contractual Requirements"
+    }
+  },
+  {
+    "content": "### 10.3 MLOps Security\n- Secure model pipelines\n- Version control\n- Secure model storage\n- API security\n- Monitoring and logging\n\n## 11. Regulatory Compliance\n\n### 11.1 EU AI Act Compliance\n**Requirements by Risk Level:**\n- **High-Risk Systems**: CE marking, conformity assessment\n- **Limited Risk**: Transparency obligations\n- **Minimal Risk**: Voluntary codes of conduct",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_17",
+      "chunk_index": 17,
+      "total_chunks": 27,
+      "chunk_size": 373,
+      "section": "10.2 Security Controls"
+    }
+  },
+  {
+    "content": "### 11.2 Other Regulations\n- GDPR for data protection\n- MiFID II for financial services\n- Basel III for risk management\n- National AI strategies\n- Sector-specific requirements\n\n### 11.3 Compliance Monitoring\n- Regular compliance assessments\n- Documentation requirements\n- Audit trails\n- Regulatory reporting\n- Incident notification\n\n## 12. Human Oversight",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_18",
+      "chunk_index": 18,
+      "total_chunks": 27,
+      "chunk_size": 355,
+      "section": "11.1 EU AI Act Compliance"
+    }
+  },
+  {
+    "content": "## 12. Human Oversight\n\n### 12.1 Human-in-the-Loop Requirements\n**By Decision Impact:**\n- **Critical**: Human approval required\n- **High**: Human review required\n- **Medium**: Human monitoring\n- **Low**: Automated with exception handling\n\n### 12.2 Override Mechanisms\n- Clear escalation procedures\n- Override authority definition\n- Documentation of overrides\n- Regular review of override patterns\n\n## 13. Performance Monitoring",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_19",
+      "chunk_index": 19,
+      "total_chunks": 27,
+      "chunk_size": 427,
+      "section": "11.3 Compliance Monitoring"
+    }
+  },
+  {
+    "content": "## 13. Performance Monitoring\n\n### 13.1 Key Metrics\n**Technical Metrics:**\n- Accuracy, Precision, Recall\n- F1 Score, AUC-ROC\n- Latency and throughput\n- Error rates\n\n**Business Metrics:**\n- Business value delivered\n- User satisfaction\n- Process efficiency\n- Cost reduction\n\n**Ethical Metrics:**\n- Fairness indicators\n- Explainability scores\n- Privacy preservation\n- User trust measures",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_20",
+      "chunk_index": 20,
+      "total_chunks": 27,
+      "chunk_size": 384,
+      "section": "12.2 Override Mechanisms"
+    }
+  },
+  {
+    "content": "### 13.2 Monitoring Frequency\n- Real-time: System health, anomalies\n- Daily: Performance metrics\n- Weekly: Business KPIs\n- Monthly: Fairness and bias\n- Quarterly: Comprehensive review\n\n## 14. Incident Management\n\n### 14.1 Incident Classification\n- **Severity 1**: Critical business impact\n- **Severity 2**: Major functionality affected\n- **Severity 3**: Minor issues\n- **Severity 4**: Cosmetic issues",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_21",
+      "chunk_index": 21,
+      "total_chunks": 27,
+      "chunk_size": 400,
+      "section": "13.1 Key Metrics"
+    }
+  },
+  {
+    "content": "### 14.2 Response Procedures\n1. Detection and alerting\n2. Initial assessment\n3. Containment measures\n4. Root cause analysis\n5. Remediation\n6. Lessons learned\n\n### 14.3 Reporting Requirements\n- Internal escalation within 2 hours for Sev 1\n- Regulatory notification per requirements\n- Customer communication plan\n- Post-incident review\n\n## 15. Training and Awareness",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_22",
+      "chunk_index": 22,
+      "total_chunks": 27,
+      "chunk_size": 364,
+      "section": "14.1 Incident Classification"
+    }
+  },
+  {
+    "content": "## 15. Training and Awareness\n\n### 15.1 Training Programs\n- AI Ethics for all employees\n- Technical AI/ML for developers\n- AI Risk Management for risk professionals\n- AI Governance for management\n\n### 15.2 Certification Requirements\n- Mandatory ethics training\n- Role-specific technical training\n- Annual recertification\n- Continuous learning credits\n\n## 16. Innovation and Experimentation",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_23",
+      "chunk_index": 23,
+      "total_chunks": 27,
+      "chunk_size": 389,
+      "section": "14.3 Reporting Requirements"
+    }
+  },
+  {
+    "content": "## 16. Innovation and Experimentation\n\n### 16.1 AI Sandbox\n- Controlled environment for testing\n- Relaxed controls for innovation\n- Clear graduation criteria\n- Risk-based approval process\n\n### 16.2 Pilot Programs\n- Limited scope deployment\n- Enhanced monitoring\n- User feedback collection\n- Scaling decision framework\n\n## 17. Audit and Assurance\n\n### 17.1 Internal Audit\n- Annual AI governance review\n- Sample testing of AI systems\n- Control effectiveness assessment\n- Compliance verification",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_24",
+      "chunk_index": 24,
+      "total_chunks": 27,
+      "chunk_size": 492,
+      "section": "15.2 Certification Requirements"
+    }
+  },
+  {
+    "content": "### 17.2 External Assurance\n- Third-party algorithm audits\n- Certification programs\n- Peer reviews\n- Academic partnerships\n\n### 17.3 Continuous Improvement\n- Regular policy updates\n- Best practice adoption\n- Lessons learned integration\n- Stakeholder feedback\n\n## Appendices\n\n### Appendix A: AI Risk Assessment Template\n### Appendix B: Model Card Template\n### Appendix C: Ethical Review Checklist\n### Appendix D: Vendor Assessment Form\n### Appendix E: Incident Response Playbook",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_25",
+      "chunk_index": 25,
+      "total_chunks": 27,
+      "chunk_size": 477,
+      "section": "17.1 Internal Audit"
+    }
+  },
+  {
+    "content": "---\nDocument Control:\n- Owner: Chief Data Officer\n- Approved by: AI Ethics Committee\n- Next Review: June 2024\n- Distribution: All AI Stakeholders",
+    "metadata": {
+      "id": "02b8fbae9d4f",
+      "name": "ai_governance_policy.md",
+      "path": "data\\policies\\ai_governance_policy.md",
+      "size": 10901,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "02b8fbae9d4f_chunk_26",
+      "chunk_index": 26,
+      "total_chunks": 27,
+      "chunk_size": 145,
+      "section": "Appendix E: Incident Response Playbook"
+    }
+  },
+  {
+    "content": "# Model Risk Management Policy\nVersion: 2.1\nLast Updated: January 2024\nClassification: Internal\n\n## 1. Purpose and Scope\n\nThis Model Risk Management (MRM) policy establishes the framework for identifying, measuring, monitoring, and controlling risks arising from the use of quantitative models throughout Société Générale.",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_0",
+      "chunk_index": 0,
+      "total_chunks": 19,
+      "chunk_size": 322
+    }
+  },
+  {
+    "content": "### 1.1 Scope\nThis policy applies to all models used for:\n- Credit risk assessment\n- Market risk measurement\n- Operational risk quantification\n- Regulatory capital calculation\n- Pricing and valuation\n- Stress testing and scenario analysis\n- Anti-money laundering (AML) and fraud detection\n\n## 2. Model Risk Definition",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_1",
+      "chunk_index": 1,
+      "total_chunks": 19,
+      "chunk_size": 317,
+      "section": "1. Purpose and Scope"
+    }
+  },
+  {
+    "content": "## 2. Model Risk Definition\n\nModel risk is the potential for adverse consequences from decisions based on incorrect or misused model outputs and reports. Model risk can lead to financial loss, poor business decisions, or damage to the bank's reputation.\n\n### 2.1 Sources of Model Risk\n- Fundamental errors in model methodology\n- Incorrect implementation\n- Use of models outside their intended purpose\n- Data quality issues\n- Model performance degradation over time\n\n## 3. Model Governance Framework",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_2",
+      "chunk_index": 2,
+      "total_chunks": 19,
+      "chunk_size": 498,
+      "section": "1.1 Scope"
+    }
+  },
+  {
+    "content": "## 3. Model Governance Framework\n\n### 3.1 Three Lines of Defense\n\n**First Line: Model Owners and Users**\n- Responsible for model development and implementation\n- Ensure appropriate model use\n- Monitor model performance\n- Maintain model documentation\n\n**Second Line: Model Risk Management Team**\n- Independent model validation\n- Model risk assessment and rating\n- Policy development and maintenance\n- Model inventory management",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_3",
+      "chunk_index": 3,
+      "total_chunks": 19,
+      "chunk_size": 426,
+      "section": "2.1 Sources of Model Risk"
+    }
+  },
+  {
+    "content": "**Third Line: Internal Audit**\n- Independent review of MRM framework\n- Assessment of policy compliance\n- Evaluation of control effectiveness\n\n### 3.2 Model Lifecycle Management\n\n**Phase 1: Development**\n- Business case and requirements definition\n- Methodology selection and justification\n- Initial testing and documentation\n- Peer review",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_4",
+      "chunk_index": 4,
+      "total_chunks": 19,
+      "chunk_size": 338,
+      "section": "3.1 Three Lines of Defense"
+    }
+  },
+  {
+    "content": "**Phase 2: Validation**\n- Independent validation by MRM team\n- Conceptual soundness review\n- Outcomes analysis\n- Implementation verification\n- Approval or rejection decision\n\n**Phase 3: Implementation**\n- Production deployment\n- User access controls\n- Change management procedures\n- Initial monitoring setup\n\n**Phase 4: Ongoing Monitoring**\n- Performance tracking against thresholds\n- Quarterly validation reports\n- Annual model review\n- Backtesting requirements",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_5",
+      "chunk_index": 5,
+      "total_chunks": 19,
+      "chunk_size": 462,
+      "section": "3.2 Model Lifecycle Management"
+    }
+  },
+  {
+    "content": "**Phase 5: Model Retirement**\n- Decommissioning procedures\n- Data retention requirements\n- Documentation archival\n\n## 4. Model Validation Requirements\n\n### 4.1 Initial Validation\nAll models must undergo independent validation before production use, including:\n- Evaluation of conceptual soundness\n- Review of mathematical framework\n- Data quality assessment\n- Benchmarking against alternatives\n- Sensitivity analysis\n- Stress testing",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_6",
+      "chunk_index": 6,
+      "total_chunks": 19,
+      "chunk_size": 433,
+      "section": "3.2 Model Lifecycle Management"
+    }
+  },
+  {
+    "content": "### 4.2 Periodic Revalidation\n- High-risk models: Annual validation\n- Medium-risk models: Every 2 years\n- Low-risk models: Every 3 years\n- Triggered revalidation for material changes\n\n### 4.3 Validation Documentation\nValidation reports must include:\n- Executive summary with key findings\n- Detailed technical analysis\n- Identified limitations and conditions of use\n- Risk rating and recommendations\n- Management responses and action plans\n\n## 5. Model Risk Rating",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_7",
+      "chunk_index": 7,
+      "total_chunks": 19,
+      "chunk_size": 463,
+      "section": "4.1 Initial Validation"
+    }
+  },
+  {
+    "content": "## 5. Model Risk Rating\n\nModels are classified into risk tiers based on:\n- Materiality of potential impact\n- Model complexity\n- Quality of input data\n- Degree of model uncertainty\n\n### 5.1 Risk Tiers\n- **Tier 1 (Critical)**: Direct impact on regulatory capital, >€500M exposure\n- **Tier 2 (High)**: Significant financial or strategic decisions, €100-500M exposure\n- **Tier 3 (Medium)**: Moderate business impact, €10-100M exposure\n- **Tier 4 (Low)**: Limited impact, <€10M exposure",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_8",
+      "chunk_index": 8,
+      "total_chunks": 19,
+      "chunk_size": 481,
+      "section": "4.3 Validation Documentation"
+    }
+  },
+  {
+    "content": "## 6. Data Governance\n\n### 6.1 Data Quality Standards\n- Completeness: >95% for critical fields\n- Accuracy: Regular reconciliation with source systems\n- Timeliness: Data refresh within defined SLAs\n- Consistency: Cross-system validation\n\n### 6.2 Data Lineage\n- Document data sources and transformations\n- Maintain data dictionary\n- Track data quality metrics\n- Implement data quality controls\n\n## 7. Model Performance Monitoring",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_9",
+      "chunk_index": 9,
+      "total_chunks": 19,
+      "chunk_size": 427,
+      "section": "5.1 Risk Tiers"
+    }
+  },
+  {
+    "content": "## 7. Model Performance Monitoring\n\n### 7.1 Key Performance Indicators\n- Prediction accuracy metrics (RMSE, MAE, etc.)\n- Discrimination measures (Gini, KS statistic)\n- Calibration tests\n- Stability indices\n\n### 7.2 Performance Thresholds\n- Green: Performance within expected range\n- Amber: Performance degradation requiring investigation\n- Red: Material breach requiring immediate action",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_10",
+      "chunk_index": 10,
+      "total_chunks": 19,
+      "chunk_size": 387,
+      "section": "6.2 Data Lineage"
+    }
+  },
+  {
+    "content": "### 7.3 Backtesting Requirements\n- Monthly backtesting for market risk models\n- Quarterly backtesting for credit risk models\n- Document and explain threshold breaches\n- Escalation procedures for persistent breaches\n\n## 8. Model Documentation Standards\n\n### 8.1 Required Documentation\n- Model development document\n- Technical specification\n- User guide\n- Validation report\n- Monitoring procedures\n- Change log",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_11",
+      "chunk_index": 11,
+      "total_chunks": 19,
+      "chunk_size": 408,
+      "section": "7.2 Performance Thresholds"
+    }
+  },
+  {
+    "content": "### 8.2 Documentation Maintenance\n- Update within 30 days of material changes\n- Annual review for accuracy\n- Version control requirements\n- Retention period: 7 years minimum\n\n## 9. Regulatory Compliance\n\n### 9.1 Regulatory Requirements\nEnsure compliance with:\n- Basel III/IV requirements\n- ECB TRIM guidelines\n- SR 11-7 (Federal Reserve guidance)\n- Local regulatory requirements",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_12",
+      "chunk_index": 12,
+      "total_chunks": 19,
+      "chunk_size": 378,
+      "section": "8.1 Required Documentation"
+    }
+  },
+  {
+    "content": "### 9.2 Regulatory Reporting\n- Quarterly model inventory updates\n- Annual MRM effectiveness assessment\n- Ad-hoc regulatory submissions\n- Audit findings and remediation status\n\n## 10. Technology and Infrastructure\n\n### 10.1 Model Development Environment\n- Segregated development/test/production environments\n- Version control for code and data\n- Access controls and audit trails\n- Approved software and tools list",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_13",
+      "chunk_index": 13,
+      "total_chunks": 19,
+      "chunk_size": 412,
+      "section": "9.1 Regulatory Requirements"
+    }
+  },
+  {
+    "content": "### 10.2 Production Environment\n- Change control procedures\n- Automated monitoring and alerting\n- Disaster recovery procedures\n- Performance optimization\n\n## 11. Roles and Responsibilities\n\n### 11.1 Model Owner\n- Ensure model fitness for purpose\n- Monitor performance\n- Maintain documentation\n- Implement validation recommendations\n\n### 11.2 Model User\n- Use model within approved scope\n- Report performance issues\n- Understand model limitations\n- Follow prescribed procedures",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_14",
+      "chunk_index": 14,
+      "total_chunks": 19,
+      "chunk_size": 476,
+      "section": "10.1 Model Development Environment"
+    }
+  },
+  {
+    "content": "### 11.3 Model Risk Management\n- Independent validation\n- Policy maintenance\n- Risk assessment\n- Training and guidance\n\n### 11.4 Senior Management\n- Approve high-risk models\n- Review MRM effectiveness\n- Ensure adequate resources\n- Foster risk culture\n\n## 12. Training and Awareness\n\n### 12.1 Training Requirements\n- MRM fundamentals for all model users\n- Technical training for developers\n- Validation training for MRM team\n- Annual refresher training",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_15",
+      "chunk_index": 15,
+      "total_chunks": 19,
+      "chunk_size": 451,
+      "section": "11.2 Model User"
+    }
+  },
+  {
+    "content": "### 12.2 Competency Assessment\n- Role-based competency requirements\n- Regular skills assessment\n- Training effectiveness measurement\n- Continuous improvement\n\n## 13. Exceptions and Waivers\n\n### 13.1 Exception Process\n- Document business justification\n- Risk assessment and mitigation\n- Approval by appropriate authority\n- Time-bound with review dates",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_16",
+      "chunk_index": 16,
+      "total_chunks": 19,
+      "chunk_size": 350,
+      "section": "12.1 Training Requirements"
+    }
+  },
+  {
+    "content": "### 13.2 Approval Authority\n- Tier 1 models: Board Risk Committee\n- Tier 2 models: Chief Risk Officer\n- Tier 3 models: Head of Model Risk\n- Tier 4 models: Model Risk Manager\n\n## 14. Policy Review and Updates\n\nThis policy is reviewed annually and updated as needed to reflect:\n- Regulatory changes\n- Industry best practices\n- Lessons learned\n- Organizational changes\n\n## Appendices",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_17",
+      "chunk_index": 17,
+      "total_chunks": 19,
+      "chunk_size": 380,
+      "section": "13.1 Exception Process"
+    }
+  },
+  {
+    "content": "## Appendices\n\n### Appendix A: Model Inventory Template\n### Appendix B: Validation Report Template\n### Appendix C: Performance Monitoring Dashboard\n### Appendix D: Regulatory Mapping\n### Appendix E: Glossary of Terms\n\n---\nDocument Control:\n- Owner: Chief Risk Officer\n- Approved by: Board Risk Committee\n- Next Review: January 2025\n- Distribution: All Model Stakeholders",
+    "metadata": {
+      "id": "a07b776113de",
+      "name": "model_risk_management_policy.md",
+      "path": "data\\policies\\model_risk_management_policy.md",
+      "size": 7677,
+      "modified": "2025-11-02T23:29:08.212254",
+      "type": ".md",
+      "chunk_id": "a07b776113de_chunk_18",
+      "chunk_index": 18,
+      "total_chunks": 19,
+      "chunk_size": 370,
+      "section": "14. Policy Review and Updates"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "02b8fbae9d4f": {
+    "id": "02b8fbae9d4f",
+    "name": "ai_governance_policy.md",
+    "path": "data\\policies\\ai_governance_policy.md",
+    "size": 10901,
+    "modified": "2025-11-02T23:29:08.212254",
+    "type": ".md"
+  },
+  "a07b776113de": {
+    "id": "a07b776113de",
+    "name": "model_risk_management_policy.md",
+    "path": "data\\policies\\model_risk_management_policy.md",
+    "size": 7677,
+    "modified": "2025-11-02T23:29:08.212254",
+    "type": ".md"
+  }
+}

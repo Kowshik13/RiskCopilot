@@ -1,0 +1,7 @@
+{
+  "total_documents": 2,
+  "total_chunks": 46,
+  "embedding_dim": 384,
+  "chunk_size": 500,
+  "chunk_overlap": 50
+}
