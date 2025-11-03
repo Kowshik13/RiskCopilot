@@ -190,9 +190,7 @@ CORS_ORIGINS=["http://localhost:5173", "https://your-netlify-app.netlify.app"]
 VITE_API_URL=http://localhost:8000
 ```
 
-##  License
 
-MIT License - See LICENSE file for details
 
 ##  Author
 
